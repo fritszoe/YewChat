@@ -6,6 +6,7 @@ use yew::prelude::*;
 use yew_router::prelude::*;
 
 mod components;
+mod services;
 use std::cell::RefCell;
 use std::rc::Rc;
 use components::login::Login;
